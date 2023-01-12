@@ -1,0 +1,63 @@
+.portfolio{
+    border: 1px rgb(77, 77, 77) solid;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 30px;
+
+   
+    background-color: white;
+  
+
+}
+.main{
+
+    display: flex;
+    margin-top: 60px;
+
+    
+    background-color: rgb(113, 112, 112);
+    
+}
+
+.portfolio_images{
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+     
+
+}
+h3{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+ 
+    background-color: lightseagreen;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.portfolio_images_image img{
+    position: relative;
+    height: 8rem;
+    width: auto;
+
+
+    
+}
+.portfolio_images_image{
+    position: relative;
+}
+@media(max-width:768px){
+   
+    .main{
+        display: block;
+        margin-top: 5rem;
+    }
+    .card{
+        margin: 0px;
+    }
+}

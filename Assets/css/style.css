@@ -1,0 +1,170 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.brand{
+    padding: 20px 30px;
+    background-color: rgb(0, 179, 179);
+    margin-left: 40px;
+    font-weight: 900;
+}
+.brand a{
+    text-decoration: none;
+   
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20rem;
+}
+li{
+    list-style-type: none;
+    /* margin-left: 3rem; */
+ 
+
+}
+li a{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    padding: 20px 30px 20px 30px;
+}
+li a:hover{
+    color: rgb(253, 253, 253);
+    background-color: lightseagreen;
+
+
+}
+.main{
+
+    display: flex;
+    margin-top: 3rem;
+    background-color: rgb(113, 112, 112);
+    
+}
+.card{
+    border: 1px rgb(77, 77, 77) solid;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+h1,h2,h3{
+    color: lightseagreen;
+    font-size: 30px;
+    font-weight: 700;
+
+    padding: 0 auto;
+}
+div h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+.image img{
+    width: auto;
+    height: 7rem;
+}
+#f{
+    background-color: rgb(57, 57, 57);
+    height: 10px;
+    
+}
+footer{
+    font-size: 2rem;
+    background-color: rgb(0, 179, 179);
+    color: white;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: auto;
+    padding: 10px;
+}
+textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 100px;
+  
+}
+
+@media (max-width:992px){
+    ul{
+        gap: 10px;
+    }
+    li a{
+        padding: 0px;
+    }
+
+
+}
+@media(max-width:768px){
+    
+    .main{
+        display: block;
+        margin-top: 5rem;
+    }
+    .card{
+        margin: 0px;
+    }
+    .brand{
+        margin-left: 0;
+    }
+    header{
+        display: block;
+    }
+
+}
+
